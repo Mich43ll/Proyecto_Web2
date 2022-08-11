@@ -1,5 +1,3 @@
-<!-- Nav lateral -->
-
 <section class="full-box nav-lateral">
 			<div class="full-box nav-lateral-bg show-nav-lateral"></div>
 			<div class="full-box nav-lateral-content">
