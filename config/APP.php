@@ -1,5 +1,5 @@
 <?php
-    const SERVERURL="http://localhost/Prestamos/";
+    const SERVERURL="http://localhost/Proyecto_Web2/";
 
     const COMPANY ="SISTEMAS PRESTAMOS";
 
