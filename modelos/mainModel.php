@@ -91,4 +91,24 @@ class mainModel
         $cadena=trim($cadena);
         return $cadena;
     }
+
+    /*----------------- Funcion verificar datos ----------------*/
+
+    protected static function verificar_datos($filtro,$cadena){
+        if(preg_match("/^".$filtro."$/",$cadena)){
+            return false;
+        }else{
+            return true;
+        }
+    }
+
+    /*----------------- Funcion verificar fechas ----------------*/
+    protected static function verificar_fecha($fecha){
+        $valores=explode('-',$fecha);
+        if(count($valores) ==3 && checkdate($valores[1],$valores[2],$valores[0])){
+            return false;
+        }else{
+            return true;
+        }
+    }
 }
